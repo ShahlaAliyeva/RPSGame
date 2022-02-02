@@ -1,0 +1,58 @@
+*{
+    scroll-behavior: smooth;
+}
+
+/*  ======= message  ======== */
+.player-message{
+    display: none;
+}
+
+#chat{
+    border: 1px solid #000;
+    height: 200px;
+    max-height: 180px;
+    overflow: auto;
+}
+
+#message{
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.message-node{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.message-node + .message-node{
+    border-top: 1px solid #ccc;
+}
+
+#inp-form{
+    display: flex;
+    gap: 10px;
+}
+
+#inp-form button{
+    cursor: pointer;
+}
+
+h1, .inputName, .players, p {
+    text-align: center;
+}
+
+.inputName {
+    margin-bottom: 1em;
+}
+
+.players> button {
+    width: 10em;
+    height: 10em;
+    
+}
+
+#inp-form {
+    /* width: 10em; */
+}
